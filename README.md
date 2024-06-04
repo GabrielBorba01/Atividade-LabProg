@@ -26,16 +26,16 @@ Esta classe deve possuir 3 atributos:
 Esta classe deve possuir um método construtor padrão, onde nenhum parâmetro deve ser
 passado para se instanciar objetos dessa classe.
 * A classe deve possuir o seguinte método (procedimento):
-1. setData – Este método deve receber 3 valores inteiros, referentes ao dia, mês e ao ano
+1. `setData` – Este método deve receber 3 valores inteiros, referentes ao dia, mês e ao ano
 da data que se deseja informar como atributos do objeto instanciado (deve atualizar os
 atributos do objeto da classe). Ela deve conter tratamento para entradas inválidas de
 dia, mês e ano, de modo que.
-* Os anos devem receber valores maiores que 1.
-* Os meses devem receber valores inteiros de 1 a 12.
-* Os dias devem respeitar os valores possíveis para cada mês, conforme descrito
-na tabela a seguir.
+   * Os anos devem receber valores maiores que 1.
+   * Os meses devem receber valores inteiros de 1 a 12.
+   * Os dias devem respeitar os valores possíveis para cada mês, conforme descrito
+   na tabela a seguir.
 
-![img.png](img.png)
+![img.png](img.png)  
 A classe deve possuir os seguintes métodos (função):
 
 * `getDia` – que deve retornar um inteiro com o dia informado para o objeto.
