@@ -2,6 +2,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+// Alunos:
+// RA: 194211 - Gabriel Borba
+// RA: 194210 - Nathan Calheiros
+
 public class GerenciaArquivosTxt {
     private String urlPasta;
     private String nomeArquivo;

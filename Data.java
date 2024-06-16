@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+// Alunos:
+// RA: 194211 - Gabriel Borba
+// RA: 194210 - Nathan Calheiros 
+
 public class Data {
     private int dia;
     private int mes;

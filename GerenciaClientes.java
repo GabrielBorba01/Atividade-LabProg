@@ -3,6 +3,11 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.Scanner;
 
+// Alunos:
+// RA: 194211 - Gabriel Borba
+// RA: 194210 - Nathan Calheiros
+
+
 public class GerenciaClientes {
     // Caminho da pasta onde os arquivos de clientes serão armazenados
     private static final String URL_PASTA = "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Java";

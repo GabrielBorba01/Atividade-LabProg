@@ -1,3 +1,8 @@
+
+// Alunos:
+// RA: 194211 - Gabriel Borba
+// RA: 194210 - Nathan Calheiros
+
 public class Pessoa {
     private String nome;
     private String cpf;
