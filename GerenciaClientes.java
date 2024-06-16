@@ -60,7 +60,7 @@ public class GerenciaClientes {
         while (true) {
             System.out.print("Informe a data de nascimento (dd/mm/aaaa): ");
             String dataNascimento = scanner.nextLine();
-            if (isValidDate(dataNascimento)) {
+            if (dataValida(dataNascimento)) {
                 cliente.setDataNascimento(dataNascimento);
                 break;
             } else {
@@ -112,7 +112,7 @@ public class GerenciaClientes {
     }
 
     // Método para validar a data de nascimento
-    private static boolean isValidDate(String date) {
+    private static boolean dataValida(String date) {
         DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         try {
             LocalDate.parse(date, dateFormatter);
